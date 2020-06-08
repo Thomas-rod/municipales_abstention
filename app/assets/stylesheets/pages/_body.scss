@@ -1,0 +1,49 @@
+//--------------------------//
+//          BODY CSS        //
+//--------------------------//
+
+body {
+  font-size: 100%;
+}
+
+body::-webkit-scrollbar {
+  width: 0.3rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: $red;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: $blue;
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style:none;
+}
+
+a {
+  color: black;
+  text-decoration:none;
+  &:hover {
+    text-decoration:none;
+    color:$gray;
+  }
+}
+
+
+
