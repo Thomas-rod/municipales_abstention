@@ -4,6 +4,7 @@
 
 body {
   font-size: 100%;
+  color:$white
 }
 
 body::-webkit-scrollbar {
@@ -37,11 +38,11 @@ ul {
 }
 
 a {
-  color: black;
+  color:rgba($light-gray,0.5);
   text-decoration:none;
   &:hover {
     text-decoration:none;
-    color:$gray;
+    color:$main-blue;
   }
 }
 
