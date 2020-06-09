@@ -48,10 +48,10 @@ footer {
 //          CARD_ICON       //
 //--------------------------//
 .map-icon {
-  fill: $main-blue;
+  // fill: $main-blue;
   &:hover {
     box-shadow:0 0 10px 10px rgba($main-blue, 0.3);
-    fill: $second-blue;
+    fill: $main-blue;
     z-index:1;
     transform:translate(2px);
   }

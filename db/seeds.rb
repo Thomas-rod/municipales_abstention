@@ -5,16 +5,18 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-puts "Department creation"
-Department.create!(zip_code: '1', name: 'Ain', register: 418764, abstention: 236369, voters: 182395)
-Department.create!(zip_code: '2', name: 'Aisne', register: 373570, abstention: 196123, voters: 177447)
-Department.create!(zip_code: '3', name: 'Allier', register: 249424, abstention: 124769, voters: 124655)
-Department.create!(zip_code: '4', name: 'Alpes-de-Haute-Provence', register: 128757, abstention: 56780, voters: 71977)
-Department.create!(zip_code: '5', name: 'Hautes-Alpes', register: 111839, abstention: 50501, voters: 61338)
-Department.create!(zip_code: '6', name: 'Alpes-Maritimes', register: 767102, abstention: 480531, voters: 286571)
-Department.create!(zip_code: '7', name: 'Ardèche', register: 252633, abstention: 123244, voters: 129389)
-Department.create!(zip_code: '8', name: 'Ardennes', register: 192207, abstention: 97010, voters: 95197)
-Department.create!(zip_code: '9', name: 'Ariège', register: 119373, abstention: 49058, voters: 70315)
+puts "Departments destroy"
+Department.destroy_all
+puts "Departments creation"
+Department.create!(zip_code: '01', name: 'Ain', register: 418764, abstention: 236369, voters: 182395)
+Department.create!(zip_code: '02', name: 'Aisne', register: 373570, abstention: 196123, voters: 177447)
+Department.create!(zip_code: '03', name: 'Allier', register: 249424, abstention: 124769, voters: 124655)
+Department.create!(zip_code: '04', name: 'Alpes-de-Haute-Provence', register: 128757, abstention: 56780, voters: 71977)
+Department.create!(zip_code: '05', name: 'Hautes-Alpes', register: 111839, abstention: 50501, voters: 61338)
+Department.create!(zip_code: '06', name: 'Alpes-Maritimes', register: 767102, abstention: 480531, voters: 286571)
+Department.create!(zip_code: '07', name: 'Ardèche', register: 252633, abstention: 123244, voters: 129389)
+Department.create!(zip_code: '08', name: 'Ardennes', register: 192207, abstention: 97010, voters: 95197)
+Department.create!(zip_code: '09', name: 'Ariège', register: 119373, abstention: 49058, voters: 70315)
 Department.create!(zip_code: '10', name: 'Aube', register: 203291, abstention: 110692, voters: 92599)
 Department.create!(zip_code: '11', name: 'Aude', register: 277823, abstention: 129237, voters: 148586)
 Department.create!(zip_code: '12', name: 'Aveyron', register: 218197, abstention: 93176, voters: 125021)
