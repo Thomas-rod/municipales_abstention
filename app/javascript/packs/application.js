@@ -30,12 +30,10 @@ import Chart from 'chart.js';
 
 import { colorChangeMapIcon } from '../components/color_map_icon'
 import { addTextToCardOnClick } from '../components/clickicon'
-// import { pieIntialization, changeDataPie} from "../components/pie"
 
 document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:
   // initSelect2();
   colorChangeMapIcon();
   addTextToCardOnClick();
-  // pieIntialization(46437411,25697206);
 });
