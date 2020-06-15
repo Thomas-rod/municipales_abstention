@@ -9,7 +9,7 @@ const colorChangeMapIcon = () => {
       icon.setAttribute("fill", "rgb(30, 221, 136)")
     }
     else if (percentageAbstention < percentageFrance) {
-      icon.setAttribute("fill","rgb(255, 110, 0)")
+      icon.setAttribute("fill","rgb(255, 214, 102)")
     }
     else {
       icon.setAttribute("fill", "rgb(226, 1, 27)")
